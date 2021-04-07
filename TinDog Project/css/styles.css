@@ -1,0 +1,188 @@
+body{
+  font-family: "Montserrat" !important;
+  text-align: center!important;
+}
+h1,h2,h3{
+  font-family: "Montserrat" !important;
+  font-weight: bold !important;
+}
+p{
+color: #8f8f8f;
+}
+h3{
+  font-family:"Montserrat" !important;
+
+}
+
+
+
+/*big-heading*/
+.big-heading{
+  font-family: "Montserrat" !important;
+  font-size:3.5rem !important;
+  line-height: 1.5 !important;
+  font-weight: bold !important;
+
+}
+
+.section-heading{
+  font-size: 3rem!important;
+  line-height: 2.5rem!important;
+}
+
+/*Section*/
+.colored-section{
+  background-color:#ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/*Title-Section*/
+
+#title{
+  text-align: left;
+}
+.container-fluid{
+   padding: 3% 15% 7% !important;
+}
+
+
+
+/*Navigation-bar*/
+.navbar{
+  padding:0 0 4.5rem !important;
+
+}
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem !important;
+
+  }
+
+  .nav-item{
+    padding:0 18px;
+  }
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/*Download-Button*/
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+
+/*Title-image*/
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+  position: absolute;
+}
+
+
+
+/*features*/
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  /*z-index: 1;*/
+}
+
+.feature-title{
+  font-weight: bold;
+}
+
+.feature-box{
+padding: 5%;
+text-align: center;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+
+
+/*testimonials*/
+#testimonials{
+  background-color: #ef8172;
+  }
+
+.testimonial-text{
+  font-size:3rem;
+  line-height:1.5;
+}
+ .testimonial-image{
+   width:10%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+ #press{
+   background-color: #ef8172;
+   padding-bottom: 3%;
+ }
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+
+/* pricing section*/
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+
+
+/*Call-to-Action*/
+#cta{
+padding: 7% 15%;
+  }
+
+  #cta-note{
+    font-family: "Montserrat" !important ;
+    font-size: 3.5rem!important;
+    line-height: 1.5 !important;
+    color: #fff;
+    font-weight: 700 !important;
+  }
+ #footer{
+   padding: 7% 15%;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+   #title{
+     text-align: left;
+   }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
